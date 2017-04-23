@@ -1,0 +1,48 @@
+doctype(html)
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title=title
+    meta(name="description" content=description)
+    link(type="text/css" href="/styles/bulma.css" rel="stylesheet")
+    link(type="text/css" href="/styles/styles.css" rel="stylesheet")
+    script(src="/scripts/jquery.js")
+
+  body
+    .pino-nav
+      .container
+        nav.nav
+          .nav-left
+            a(href="/").nav-item Pinolywood Studios
+          .nav-center
+            a.nav-item
+              span.icon
+                i.fa.fa-github
+            a.nav-item
+              span.icon
+                i.fa.fa-twitter
+          .nav-right.nav-menu
+            a(href="/").nav-item Home
+            a(href="/about").nav-item About
+            a(href="/contact").nav-item Contact
+            .nav-item
+              .field.is-grouped
+                p.control
+
+    div.main.site-content
+      block content
+
+    footer.pino-footer
+      .container
+        .columns
+          .column.is-6
+            p © 2017 Pinolywood Studios.
+          .column.is-6.has-text-right
+            p
+              a(href="/") Home
+              |  / 
+              a(href="/about") About
+              |  / 
+              a(href="/contact") Contact
+              |  / 
+              a(href="https://www.facebook.com/pinolywoodstudio") Facebook 

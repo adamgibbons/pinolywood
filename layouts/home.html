@@ -1,0 +1,54 @@
+extends base.html
+
+block content
+  section.hero.has-text-centered
+    .hero-body
+      .container
+        .columns
+          .column.is-4.has-text-right
+            img(src="/img/logo.jpg" style="max-height: 18em;")
+          .column.is-offset-1.has-text-left
+            .left-ruled
+              h3.title.is-3(style="") Proudly producing films made in
+                br
+                strong(style="font-size: 1.5em;") Puerto Rico.
+              h2.subtitle(style="margin-top:0;") Piñolywood Studios was founded in 2015 as a movie production studio focused on films made in Puerto Rico benefiting from the Puerto Rico Film Incentives provided by the Economic Development Department of Puerto Rico.
+              p
+                a.button.is-primary.is-medium(style="margin-right:1em;") Get in Touch
+                a.button.is-medium  More About Us
+
+
+  .tile.is-ancestor
+    .tile.is-parent.is-vertical
+      article.tile.is-child
+        a(href="/films/vico")
+          img(src="/img/vico-1.jpg" alt="vico")
+    .tile.is-vertical
+      .tile
+        .tile.is-parent
+          .tile.is-child
+            a(href="/films/pepo")
+              img(src="/img/pepo.jpg" alt="pepo")
+        .tile.is-parent
+          .tile.is-child
+            a(href="/films/domirriquenos")
+              img(src="/img/domirriquenos-1.png" alt="los domirriquenos")
+      .tile.is-parent
+        .tile.is-child
+          img(src="/img/filming-1.png" alt="los dom")
+
+  .tile.is-ancestor
+    .tile.is-parent.is-3.is-vertical
+      .tile.is-child
+        a(href="/films/sanky")
+          img(src="/img/sanky.jpg" style="width:100%;")
+      .tile.is-child
+        img(src="/img/filming-2.png")
+    .tile.is-parent
+      .tile.is-child
+        a(href="/films/boda")
+          img(src="/img/boda.png")
+    .tile.is-parent
+      .tile.is-child
+        a(href="/films/tuberculo")
+          img(src="/img/tuberculo.png")

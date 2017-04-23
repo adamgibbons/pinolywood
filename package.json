@@ -1,0 +1,20 @@
+{
+  "name": "pinolywood",
+  "private": true,
+  "scripts": {
+      "s3:clean": "aws s3 rm s3://pinolywood/ --recursive"
+    },
+  "dependencies": {
+    "browserify": "^14.1.0",
+    "metalsmith": "^2.1.0",
+    "metalsmith-browserify": "^0.2.4",
+    "metalsmith-layouts": "^1.4.1",
+    "metalsmith-less": "^2.0.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-watch": "^1.0.3",
+    "pug": "^2.0.0-beta11",
+    "s3-upload-dir": "^0.1.0",
+    "watchify": "^3.9.0"
+  }
+}

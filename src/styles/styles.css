@@ -1,0 +1,42 @@
+.pino-nav {
+  background-color: #e48004;
+}
+
+.pino-footer {
+  padding: 2em 0;
+}
+
+.nav {
+  background-color: inherit;
+}
+
+.hero {
+  background-color: inherit;
+}
+
+.nav-item a, a.nav-item {
+  color: white;
+}
+
+.left-ruled {
+  border-left: 1px solid #e48004;
+  padding: 4em 0em 2em 2em;
+}
+
+dl {
+  margin: 1em 0;
+}
+
+dl dt {
+  border-bottom: 1px solid #ccc;
+  margin-top: 1em;
+}
+
+dl dd {
+
+}
+
+/*
+  orange  e48004
+  blue    414d59
+*/

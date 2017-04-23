@@ -1,0 +1,25 @@
+extends base.html
+
+block content
+  .container
+    br
+    br
+    br
+    .columns
+
+      .column.is-6
+        img(src=`/img/${img_1}`)
+      .column
+
+        h1.title #{title}
+        .subtitle #{description}
+
+        dl
+          dt Director
+          dd #{director}
+
+          dt Writer
+          dd #{writer}
+
+          dt Stars
+          dd #{stars}
