@@ -17,37 +17,38 @@ block content
                 a.button.is-primary.is-medium(style="margin-right:1em;") Get in Touch
                 a.button.is-medium  More About Us
 
-  .tile.is-ancestor
-    .tile.is-parent.is-vertical
-      article.tile.is-child
-        a(href="/films/vico")
-          img(src="/img/vico-1.jpg" alt="vico")
-    .tile.is-vertical
-      .tile
+  section.films
+    .tile.is-ancestor
+      .tile.is-parent.is-vertical
+        article.tile.is-child
+          a(href="/films/vico")
+            img(src="/img/vico-1.jpg" alt="vico")
+      .tile.is-vertical
+        .tile
+          .tile.is-parent
+            .tile.is-child
+              a(href="/films/pepo")
+                img(src="/img/pepo.jpg" alt="pepo")
+          .tile.is-parent
+            .tile.is-child
+              a(href="/films/domirriquenos")
+                img(src="/img/domirriquenos-1.png" alt="los domirriquenos")
         .tile.is-parent
           .tile.is-child
-            a(href="/films/pepo")
-              img(src="/img/pepo.jpg" alt="pepo")
-        .tile.is-parent
-          .tile.is-child
-            a(href="/films/domirriquenos")
-              img(src="/img/domirriquenos-1.png" alt="los domirriquenos")
+            img(src="/img/filming-1.png" alt="los dom")
+
+    .tile.is-ancestor
+      .tile.is-parent.is-3.is-vertical
+        .tile.is-child
+          a(href="/films/sanky")
+            img(src="/img/sanky.jpg" style="width:100%;")
+        .tile.is-child
+          img(src="/img/filming-2.png")
       .tile.is-parent
         .tile.is-child
-          img(src="/img/filming-1.png" alt="los dom")
-
-  .tile.is-ancestor
-    .tile.is-parent.is-3.is-vertical
-      .tile.is-child
-        a(href="/films/sanky")
-          img(src="/img/sanky.jpg" style="width:100%;")
-      .tile.is-child
-        img(src="/img/filming-2.png")
-    .tile.is-parent
-      .tile.is-child
-        a(href="/films/boda")
-          img(src="/img/boda.png")
-    .tile.is-parent
-      .tile.is-child
-        a(href="/films/tuberculo")
-          img(src="/img/tuberculo.png")
+          a(href="/films/boda")
+            img(src="/img/boda.png")
+      .tile.is-parent
+        .tile.is-child
+          a(href="/films/tuberculo")
+            img(src="/img/tuberculo.png")

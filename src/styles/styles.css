@@ -63,9 +63,16 @@ dl dd {
 }
 
 /*
-  orange  e48004
-  blue    414d59
+  orange    e48004
+  blue      414d59
+  darkblue  2d343c
+  orange hover: ff8d00;
 */
+
+.films {
+  background-color: #1d1f21;
+  padding: 1em 0;
+}
 
 html {
   height: 100%;
