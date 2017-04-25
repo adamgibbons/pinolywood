@@ -36,6 +36,26 @@ dl dd {
 
 }
 
+.tile.is-child {
+  transition: all 0.2s ease;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.tile.is-child img {
+  transition: all 0.25s ease;
+}
+
+.tile.is-child:hover {
+  opacity: .8;
+}
+
+.tile.is-child:hover img {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 /*
   orange  e48004
   blue    414d59
