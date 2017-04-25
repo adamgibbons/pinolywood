@@ -57,6 +57,10 @@ dl dd {
   transform: scale(1.05);
 }
 
+.form-wrapper {
+  border: 1px solid #e48004;
+}
+
 /*
   orange  e48004
   blue    414d59
