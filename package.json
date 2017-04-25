@@ -2,7 +2,7 @@
   "name": "pinolywood",
   "private": true,
   "scripts": {
-      "s3:clean": "aws s3 rm s3://pinolywood/ --recursive"
+      "s3:clean": "aws s3 rm s3://pinolywood-studios/ --recursive"
     },
   "dependencies": {
     "browserify": "^14.1.0",
