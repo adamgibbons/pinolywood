@@ -1,5 +1,3 @@
 ---
 layout: contact.html
 ---
-
-Foo

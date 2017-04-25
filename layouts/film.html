@@ -3,12 +3,13 @@ extends base.html
 block content
   .container
     .columns
-
-      .column.is-6
+      .column.is-3
+        h1.title Films
+        include includes/films
+      .column.is-5.has-text-centered
         img(src=`/img/${img_1}`)
-
       .column
-        h1.title #{title}
+        h2.title #{title}
         - if (description)
           .subtitle #{description}
 

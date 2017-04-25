@@ -6,8 +6,6 @@ html(lang="en")
     meta(name="description" content=description)
     link(type="text/css" href="/styles/bulma.css" rel="stylesheet")
     link(type="text/css" href="/styles/styles.css" rel="stylesheet")
-    script(src="/scripts/jquery.js")
-
   body
     .main
       .pino-nav
@@ -24,6 +22,7 @@ html(lang="en")
                   i.fa.fa-twitter
             .nav-right.nav-menu
               a(href="/").nav-item Home
+              a(href="/films/vico").nav-item Films
               a(href="/about").nav-item About
               a(href="/contact").nav-item Contact
               .nav-item
@@ -42,8 +41,13 @@ html(lang="en")
             p
               a(href="/") Home
               |  / 
+              a(href="/films/vico") Films
+              |  / 
               a(href="/about") About
               |  / 
               a(href="/contact") Contact
               |  / 
               a(href="https://www.facebook.com/pinolywoodstudio") Facebook 
+
+    script(src="/scripts/jquery.js")
+    script(src="/scripts/activate-nav.js")

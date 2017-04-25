@@ -85,3 +85,10 @@ body {
 .main {
   flex: 1;
 }
+
+.film-menu {
+  border-right: 6px solid #ddd;
+  margin-right: .33em;
+  padding: 1.5em 1em;
+  background-color: #eee;
+}
